@@ -5,6 +5,7 @@ import discord from "../../../images/icons/discord.png";
 import instagram from "../../../images/icons/instagram.png";
 import twitter from "../../../images/icons/twitter.png";
 import youtube from "../../../images/icons/youtube.png";
+import Link from "next/link";
 
 let scrollHandle = () => {
   window.scrollTo({
@@ -40,7 +41,7 @@ const Footer = () => {
             </p>
             {/* Social Media Handles - Discord, Youtube, Twitter, Instagram */}
             <div className="flex flex-row items-center justify-start mt-4">
-              <a
+              <Link
                 href="https://discord.windrosemc.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -50,28 +51,28 @@ const Footer = () => {
                   alt="Discord"
                   className="w-8 h-8 mr-2 filter invert opacity-20 hover:opacity-40"
                 />
-              </a>
-              <a href="https://youtube.com/@windrosemc">
+              </Link>
+              <Link href="https://youtube.com/@windrosemc">
                 <img
                   src={youtube.src}
                   alt="Youtube"
                   className="w-8 h-8 mr-2 filter invert opacity-20 hover:opacity-40"
                 />
-              </a>
-              <a href="https://twitter.com/WindroseMC">
+              </Link>
+              <Link href="https://twitter.com/WindroseMC">
                 <img
                   src={twitter.src}
                   alt="Twitter"
                   className="w-8 h-8 mr-2 filter invert opacity-20 hover:opacity-40"
                 />
-              </a>
-              <a href="https://www.instagram.com/WindroseMC/">
+              </Link>
+              <Link href="https://www.instagram.com/WindroseMC/">
                 <img
                   src={instagram.src}
                   alt="Instagram"
                   className="w-8 h-8 mr-2 filter invert opacity-20 hover:opacity-40"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -81,20 +82,20 @@ const Footer = () => {
             <ul className="flex flex-col items-center justify-center">
               {/* Back to Top link */}
               <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75 hover:cursor-pointer">
-                <a onClick={scrollHandle}>Back to Top</a>
+                <button onClick={scrollHandle}>Back to Top</button>
               </li>
 
               <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
-                <a href="/rules">Rules</a>
+                <Link href="/rules">Rules</Link>
               </li>
               {/* <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
-                <a href="/store">Store</a>
+                <Link href="/store">Store</Link>
               </li> */}
               <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
-                <a href="/staff">Staff</a>
+                <Link href="/staff">Staff</Link>
               </li>
             </ul>
           </div>
