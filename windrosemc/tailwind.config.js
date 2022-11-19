@@ -13,6 +13,7 @@ module.exports = {
         "white-100": "#d0ced2",
         "white-200": "#b0abb5",
         "green-100": "#43c38c",
+        "gray-100": "#393f46",
         "red-gradient-1": "#f34459",
         "red-gradient-2": "#e60e39",
         "yellow-100": "#e6ba6a",
