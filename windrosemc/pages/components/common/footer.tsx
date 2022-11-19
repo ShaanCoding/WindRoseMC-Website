@@ -85,6 +85,9 @@ const Footer = () => {
               </li>
 
               <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
+                <a href="/">Home</a>
+              </li>
+              <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
                 <a href="/rules">Rules</a>
               </li>
               {/* <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">

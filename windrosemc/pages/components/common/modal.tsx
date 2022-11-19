@@ -11,7 +11,7 @@ const Modal: React.FC<{ showModal: boolean; setShowModal: any }> = ({
           <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
               {/*content*/}
-              <div className="border-0 rounded-md shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+              <div className="border-0 rounded-md shadow-lg relative flex flex-col w-full bg-slate-100 outline-none focus:outline-none">
                 {/*body*/}
                 <div className="relative p-6 flex-auto w-[800px]">
                   <h1 className="text-red-100 font-bold text-4xl mb-4 text-center">
@@ -34,7 +34,7 @@ const Modal: React.FC<{ showModal: boolean; setShowModal: any }> = ({
               </div>
             </div>
           </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+          <div className="opacity-75 fixed inset-0 z-40 bg-black"></div>
         </>
       ) : null}
     </>
