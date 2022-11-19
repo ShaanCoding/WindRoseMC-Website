@@ -31,8 +31,8 @@ const FrequentlyAskedQuestions = () => {
           <span className="text-base">How can I join a Minecraft Server?</span>
           <p className="text-white-100 text-base my-4 font-sans">
             You can join a Minecraft server by opening up the game client and
-            selecting "Multiplayer" from the main menu. From here, you can enter
-            the IP address of a server to connect to it.
+            selecting &quot;Multiplayer&quot; from the main menu. From here, you
+            can enter the IP address of a server to connect to it.
           </p>
         </li>
 

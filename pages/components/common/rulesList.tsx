@@ -28,8 +28,8 @@ const RulesList = () => {
             This includes avoiding politically inflammatory content or
             discussions or sharing anything intended or likely to cause upset or
             offense. If there is a conflict, work to defuse it instead of making
-            it worse. Otherwise, ask a Mod+ so we can handle it - don't be a
-            mini-mod and try to deal with it yourself!
+            it worse. Otherwise, ask a Mod+ so we can handle it - don&apos;t be
+            a mini-mod and try to deal with it yourself!
           </p>
         </li>
 

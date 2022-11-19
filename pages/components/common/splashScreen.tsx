@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 import splashScreen from "../../../images/splashScreen.png";
@@ -21,34 +22,34 @@ const SplashScreen = () => {
       <nav className="flex flex-row items-center justify-center w-full h-20 px-64 bg-black bg-opacity-25">
         <div className="flex flex-row items-center justify-start w-2/3">
           <p>
-            <a
+            <Link
               href="/"
               className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
             >
               Home
-            </a>
+            </Link>
           </p>
           <p>
-            <a
+            <Link
               href="/rules"
               className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
             >
               Rules
-            </a>
+            </Link>
           </p>
           <p>
-            <a
+            <Link
               href="/staff"
               className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
             >
               Staff
-            </a>
+            </Link>
           </p>
         </div>
         <div className="flex flex-row items-center justify-end w-1/3">
           {/* Button with link to store circular background color red */}
           {/* <button className="bg-red-100 rounded-full w-32 h-12 text-white text-xl font-semibold hover:bg-red-200 text-center">
-            <a href="/store">Store</a>
+            <Link href="/store">Store</Link>
           </button> */}
         </div>
       </nav>

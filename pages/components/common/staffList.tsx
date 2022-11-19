@@ -55,11 +55,12 @@ const StaffRow: React.FC<{ staffArray: Array<IStaffList>; title: string }> = ({
         <h1 className="text-red-100 text-lg font-semibold">{title}</h1>
       </div>
       <div className="grid grid-cols-3 gap-4 mb-4">
-        {staffArray.map((staff: IStaffList) => (
+        {staffArray.map((staff: IStaffList, index: number) => (
           <StaffBlock
             staffImage={staff.staffImage}
             staffName={staff.staffName}
             staffTitle={staff.staffTitle}
+            key={index}
           />
         ))}
       </div>

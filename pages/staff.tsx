@@ -8,7 +8,7 @@ import SplashScreen from "./components/common/splashScreen";
 import styles from "../styles/Staff.module.css";
 import StaffList from "./components/common/staffList";
 
-const staff = () => {
+const Staff = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -29,4 +29,4 @@ const staff = () => {
   );
 };
 
-export default staff;
+export default Staff;

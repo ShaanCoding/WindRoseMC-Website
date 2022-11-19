@@ -8,7 +8,7 @@ import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import RulesList from "./components/common/rulesList";
 
-const rules = () => {
+const Rules = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -29,4 +29,4 @@ const rules = () => {
   );
 };
 
-export default rules;
+export default Rules;
