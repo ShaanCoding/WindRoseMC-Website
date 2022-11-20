@@ -10,7 +10,7 @@ const SplashScreen = () => {
     backgroundImage: `url(${splashScreen.src})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundPosition: "0center",
   };
 
   return (
@@ -19,39 +19,31 @@ const SplashScreen = () => {
       style={splashScreenStyle}
     >
       {/* Navigations - Home, Staff, Store, Rules */}
-      <nav className="flex flex-row items-center justify-center w-full h-20 px-64 bg-black bg-opacity-25">
-        <div className="flex flex-row items-center justify-start w-2/3">
-          <p>
-            <Link
-              href="/"
-              className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
-            >
-              Home
-            </Link>
-          </p>
-          <p>
-            <Link
-              href="/rules"
-              className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
-            >
-              Rules
-            </Link>
-          </p>
-          <p>
-            <Link
-              href="/staff"
-              className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
-            >
-              Staff
-            </Link>
-          </p>
-        </div>
-        <div className="flex flex-row items-center justify-end w-1/3">
-          {/* Button with link to store circular background color red */}
-          {/* <button className="bg-red-100 rounded-full w-32 h-12 text-white text-xl font-semibold hover:bg-red-200 text-center">
-            <Link href="/store">Store</Link>
-          </button> */}
-        </div>
+      <nav className="flex flex-row items-center justify-center w-full h-20 bg-black bg-opacity-25">
+        <p>
+          <Link
+            href="/"
+            className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
+          >
+            Home
+          </Link>
+        </p>
+        <p>
+          <Link
+            href="/rules"
+            className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
+          >
+            Rules
+          </Link>
+        </p>
+        <p>
+          <Link
+            href="/staff"
+            className="text-white-200 text-xl font-semibold mr-8 hover:opacity-75"
+          >
+            Staff
+          </Link>
+        </p>
       </nav>
 
       <div className="flex flex-col items-center justify-center w-full h-full">
