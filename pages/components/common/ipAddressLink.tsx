@@ -7,7 +7,7 @@ const IpAddressLink: React.FC<{ setShowModal: any }> = ({ setShowModal }) => {
     <div className="mx-8 xl:mx-[22.5%] px-12 py-4 bg-gradient-to-r from-red-gradient-1 to-red-gradient-2 sm:flex items-center justify-center sm:justify-between relative top-[-40px]">
       <div>
         <h1 className="text-white-100 break-words text-xl font-minecraft font-semibold mb-4 sm:mb-0 text-center sm:text-left">
-          play.windrose.com
+          play.windrosemc.com
         </h1>
       </div>
 
@@ -15,7 +15,7 @@ const IpAddressLink: React.FC<{ setShowModal: any }> = ({ setShowModal }) => {
         <button
           className="text-white bg-black bg-opacity-10 px-6 py-4 font-minecraft hover:bg-opacity-20 flex items-center justify-between"
           onClick={() => {
-            navigator.clipboard.writeText("play.windrose.com");
+            navigator.clipboard.writeText("play.windrosemc.com");
             setShowModal(true);
           }}
         >
