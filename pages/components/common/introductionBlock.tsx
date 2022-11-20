@@ -5,8 +5,8 @@ import Container from "./container";
 const IntroductionBlock = () => {
   return (
     <Container>
-      <div className="flex flex-row justify-center items-center">
-        <div className="w-1/2 mr-8">
+      <div className="flex flex-col md:flex-row justify-center items-center">
+        <div className="w-full md:w-1/2 mb-4 md:mb-0 md:mr-8">
           <h1 className="text-red-100 font-bold text-2xl mb-4">
             Welcome To Windrose - #1 Minecraft Server
           </h1>
@@ -25,7 +25,7 @@ const IntroductionBlock = () => {
           </p>
         </div>
 
-        <div className="w-1/2 ml-8">
+        <div className="w-full md:w-1/2 mb-4 md:mb-0 md:ml-8">
           <img src={windRoseBannerImage.src} alt="Banner Image" />
         </div>
       </div>

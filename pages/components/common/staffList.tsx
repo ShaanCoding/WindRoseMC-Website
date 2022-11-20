@@ -54,7 +54,7 @@ const StaffRow: React.FC<{ staffArray: Array<IStaffList>; title: string }> = ({
       <div className="bg-primary-background p-4 mb-4">
         <h1 className="text-red-100 text-lg font-semibold">{title}</h1>
       </div>
-      <div className="grid grid-cols-3 gap-4 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
         {staffArray.map((staff: IStaffList, index: number) => (
           <StaffBlock
             staffImage={staff.staffImage}
@@ -79,8 +79,10 @@ const StaffBlock: React.FC<{
         <img src={staffImage} alt={staffName} className="w-12 h-12 mr-4" />
       </div>
       <div>
-        <h1 className="text-red-100 text-sm font-semibold">{staffName}</h1>
-        <h1 className="text-white-100 text-sm">{staffTitle}</h1>
+        <h1 className="text-red-100 text-sm font-semibold break-words">
+          {staffName}
+        </h1>
+        <h1 className="text-white-100 text-sm break-word">{staffTitle}</h1>
       </div>
     </div>
   );
