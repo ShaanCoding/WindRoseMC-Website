@@ -91,11 +91,13 @@ const Footer = () => {
               <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
                 <Link href="/rules">Rules</Link>
               </li>
-              {/* <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
-                <Link href="/store">Store</Link>
-              </li> */}
               <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
                 <Link href="/staff">Staff</Link>
+              </li>
+              <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
+                <Link href="https://store.windrosemc.com/" target={"_blank"}>
+                  Store
+                </Link>
               </li>
             </ul>
           </div>

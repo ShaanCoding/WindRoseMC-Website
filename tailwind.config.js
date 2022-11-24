@@ -18,7 +18,9 @@ module.exports = {
         "red-gradient-2": "#e60e39",
         "yellow-100": "#e6ba6a",
         "red-100": "#f34459",
-        "red-200": "#fc6464",
+        "red-200": "#f4576a",
+        "discord-purple": "#6e76e9",
+        "minecraft-green": "#9dcd66",
       },
       fontFamily: {
         minecraft: ["Minecraft Regular", "sans-serif"],

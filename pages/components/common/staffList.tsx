@@ -11,6 +11,12 @@ import shaanCodingImage from "../../../images/staff/ShaanCoding.png";
 import officerLynxerImage from "../../../images/staff/OfficerLynxer.png";
 import tomDill2883Image from "../../../images/staff/TomDill2883.png";
 
+import SkHologramImage from "../../../images/staff/SkHologram.png";
+
+import AnimePlayz from "../../../images/staff/AnimePlayz.png";
+import Floppydafish from "../../../images/staff/Floppydafish.png";
+import HellGhost from "../../../images/staff/HellGhost.png";
+
 const ownerList: Array<IStaffList> = [
   {
     staffImage: shaanCodingImage.src,
@@ -21,6 +27,32 @@ const ownerList: Array<IStaffList> = [
     staffImage: officerLynxerImage.src,
     staffName: "OfficerLynxer",
     staffTitle: "Owner",
+  },
+];
+
+const seniorStaffList: Array<IStaffList> = [
+  {
+    staffImage: SkHologramImage.src,
+    staffName: "SkHologram",
+    staffTitle: "Senior Staff",
+  },
+];
+
+const juniorStaffList: Array<IStaffList> = [
+  {
+    staffImage: AnimePlayz.src,
+    staffName: "AnimePlayz",
+    staffTitle: "Junior Staff",
+  },
+  {
+    staffImage: Floppydafish.src,
+    staffName: "Floppydafish",
+    staffTitle: "Junior Staff",
+  },
+  {
+    staffImage: HellGhost.src,
+    staffName: "HellGhost",
+    staffTitle: "Junior Staff",
   },
 ];
 
@@ -40,6 +72,8 @@ const StaffList = () => {
       </h1>
 
       <StaffRow staffArray={ownerList} title="Owner" />
+      <StaffRow staffArray={seniorStaffList} title="Senior Staff" />
+      <StaffRow staffArray={juniorStaffList} title="Junior Staff" />
       <StaffRow staffArray={builderList} title="Builder" />
     </Container>
   );

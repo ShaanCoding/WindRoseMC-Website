@@ -29,7 +29,7 @@ export default function Home() {
         <IntroductionBlock />
 
         {/* Start Playing Call To Action */}
-        <CallToAction />
+        <CallToAction setShowModal={setShowModal} />
 
         {/* Frequently Asked Question */}
         <FrequentlyAskedQuestions />
