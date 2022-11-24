@@ -7,6 +7,7 @@ import discordColorIcon from "../../../images/icons/discord-color.png";
 import minecraftIcon from "../../../images/icons/minecraft.png";
 
 import axios from "axios";
+import Link from "next/link";
 
 const CallToAction: React.FC<{ setShowModal: any }> = ({ setShowModal }) => {
   interface iDiscordData {
@@ -116,13 +117,13 @@ const EmbedDiscordLink: React.FC<{ onlineNow: number; inviteLink: string }> = ({
           <p className="text-white">{onlineNow} Online Now</p>
         </div>
       </div>
-      <a
+      <Link
         className="text-sm text-discord-purple bg-white bg-opacity-5 hover:bg-opacity-[7.5%] rounded-full py-2 px-4"
         href={inviteLink}
         target="_blank"
       >
         JOIN
-      </a>
+      </Link>
     </div>
   );
 };
