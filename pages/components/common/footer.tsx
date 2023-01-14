@@ -95,7 +95,7 @@ const Footer = () => {
                 <Link href="/staff">Staff</Link>
               </li>
               <li className="text-white-200 text-base font-semibold opacity-50 mb-2 hover:opacity-75">
-                <Link href="https://store.windrosemc.com/" target={"_blank"}>
+                <Link href="https://windrosemc.tebex.io/" target={"_blank"}>
                   Store
                 </Link>
               </li>
