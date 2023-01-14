@@ -50,7 +50,7 @@ const SplashScreen = () => {
         <div className="flex flex-row justify-end items-center px-8 py-4 w-1/3">
           <p>
             <Link
-              href="https://store.windrosemc.com/"
+              href="https://windrosemc.tebex.io/"
               target={"_blank"}
               className="text-white text-xl font-semibold mr-8 bg-red-100 px-8 py-2 rounded-full hover:bg-red-200"
             >
